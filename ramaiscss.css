@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;  
+    background-color: #0056b3; 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 20px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+#logo-container {
+    flex-grow: 1;
+}
+
+#logo {
+    height: 40px; 
+}
+
+h1 {
+    color: #202124;
+}
+
+#search-container {
+    padding: 20px;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#searchInput {
+    width: 15%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 0 20px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+#searchInput:focus {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4);
+    outline: none;
+}
+
+
+table {
+    width: 30%; 
+    margin: 20px auto; 
+    margin-bottom: 2em;
+    border-collapse: collapse;
+    transition: 0.05ms;
+    box-shadow: 0px 2px 5px 0px rgba(0, 17, 255, 0.1);
+}
+
+th {
+    background-color: #0056b3;
+    color: white;
+
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+td {
+    font-weight: 500;
+    line-height: 5px;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #c8defc; 
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.btn-departamento {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #007bff;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    text-decoration: none;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.btn-departamento:hover {
+    background-color: #0056b3;
+}
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#logoContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+  }
+  
+  #logoFundo {
+    opacity: 0.05;
+  }
+  
